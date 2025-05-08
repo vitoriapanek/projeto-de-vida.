@@ -8,7 +8,7 @@
 
 body{
     background-color: var(--cor-de-fundo);
-    color: var(--texto-fundo)
+    color: var(--texto-fundo);
     font-family: arial, helvetica,sans-serif;
 }
 .conteudo-principal{
@@ -34,7 +34,7 @@ body{
     font-size: 18px;
     align-items: center;
     width: 100%;
-    border-bottom: 4px solid var(var(--botao-inativo);
+    border-bottom: 4px solid var(--botao-inativo);
     border-left: 2px solid var(--botao-ativo);
     border-right: 2px solid var(--botao-ativo);
     border-top: none;
@@ -46,4 +46,10 @@ body{
     display: block;
 }
 .ativo{
-    background-color: 
+    background-color: var(--botao-inativo);
+    border-bottom: 4px solid var(--verde)
+        border-radius: 40px 0 0 0;
+}
+.botao:first-child{
+        border-radius: 40px 0 0 0:
+
